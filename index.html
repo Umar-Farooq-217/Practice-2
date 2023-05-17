@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attribute and nth child pseudo selectors</title>
+    <style>
+        :root {
+            --color: antiquewhite;
+        }
+
+        input {
+            display: flex;
+        }
+
+        .container {
+            margin: 35px 23px;
+            display: block;
+            margin: auto;
+            width: 150px;
+
+        }
+
+        /* #box1 {
+            border: 3px solid greenyellow;
+        } */
+        input[type=text] {
+            border: 3px dotted gold;
+        }
+
+        input[type=password] {
+            border: 3px dashed brown;
+            background: skyblue;
+        }
+
+        input[type=submit] {
+            border: 3px solid fuchsia;
+            background-color: chartreuse;
+        }
+
+        /* li:nth-child(3){
+    border: 4px dashed khaki; */
+        /* } */
+        /* li:nth-child(2n+1) {
+            color: darkmagenta;
+        } */
+        /* li:nth-child(even){
+            color: aqua;
+        } */
+     .container ul li{
+        color: rgb(240, 23, 41);
+     }
+
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <form action="" class="umar">
+            <input type="text" placeholder="Enter your name">
+            <input type="password" placeholder="Enter your Password">
+            <input type="submit" placeholder="Submit">
+        </form>
+        <ul>
+            <li id="box1">item 1</li>
+            <li id="box2">item 2</li>
+            <li id="box3">item 3</li>
+
+            <li id="box4">item 4</li>
+            <li id="box5">item 5</li>
+            <li id="box6">item 6</li>
+            <li id="box7">item 7</li>
+            <li id="box8">item 8</li>
+            <li id="box9">item 9</li>
+            <li id="box10">item 10</li>
+
+        </ul>
+    </div>
+
+</body>
+
+</html>
